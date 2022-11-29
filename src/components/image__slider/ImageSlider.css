@@ -1,0 +1,9 @@
+.card__top img,.card__top p{
+    width: 70%;
+    height: 70%;
+    margin: 0.5rem auto;
+  }
+
+  .card__top img:hover{
+    cursor: pointer;
+  }

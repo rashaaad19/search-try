@@ -1,0 +1,29 @@
+.footer__container{
+    margin: auto;
+    width: 15rem;
+    background-color:whitesmoke ;
+    color: orangered;
+    border-radius: 5rem;
+    border: 1px solid orangered;
+    position: sticky;
+    bottom: 0;
+}
+.fontAwsome{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.fontAwsome__container{
+    text-align: center;
+    margin: 0.1rem;
+}
+.onHover:hover{
+    background-color: rgb(248, 167, 54);
+    color: black;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+@media (min-width:900px) {
+    .footer__container{
+        display: none;
+    }
+}

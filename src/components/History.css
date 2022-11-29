@@ -1,0 +1,25 @@
+body{
+    color: #262626;
+}
+h2{
+    margin: 1rem 1rem 1rem 3rem;
+}
+.history__container{
+    display: flex;
+ border: 1px solid grey; 
+   padding: 0.1rem; 
+   background-color: white; 
+   border-radius: 0.5rem;
+   margin-left: 1rem;
+   margin-bottom: 1rem;
+
+}
+.history__container p{
+    margin-left:0.3rem ;
+}
+.history__container{
+    cursor: pointer;
+}
+.faHistory{
+    margin-right: 0.5rem;
+}

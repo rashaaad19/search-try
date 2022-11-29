@@ -1,0 +1,24 @@
+#imageCard{
+    width: 10rem;
+    height: 10rem;
+}
+.popularPlace__card{
+    margin: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid orangered;
+    padding: 0.5rem;
+}
+#imageCard:hover{
+    cursor: pointer;
+}
+.card__container{
+    display: flex;
+    flex-direction: row;
+}
+@media (min-width:900px) {
+    .popularPlace__card{
+        padding: 0.5rem;
+    }
+}
+
